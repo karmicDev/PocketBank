@@ -16,6 +16,26 @@
 			path = PocketBank;
 			sourceTree = "<group>";
 		};
+		CCBF31A73024B14800676CC3 /* Packages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CCBF31AC3024B1AD00676CC3 /* Infrastructure */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		CCBF31B03024B1EB00676CC3 /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CCBF31B63024B26800676CC3 /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Docs;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,10 @@
 		CCBF31903024AC2300676CC3 = {
 			isa = PBXGroup;
 			children = (
+				CCBF31B63024B26800676CC3 /* Docs */,
+				CCBF31B03024B1EB00676CC3 /* Features */,
+				CCBF31AC3024B1AD00676CC3 /* Infrastructure */,
+				CCBF31A73024B14800676CC3 /* Packages */,
 				CCBF319B3024AC2300676CC3 /* PocketBank */,
 				CCBF319A3024AC2300676CC3 /* Products */,
 			);
@@ -62,6 +86,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CCBF319B3024AC2300676CC3 /* PocketBank */,
+				CCBF31A73024B14800676CC3 /* Packages */,
+				CCBF31AC3024B1AD00676CC3 /* Infrastructure */,
+				CCBF31B03024B1EB00676CC3 /* Features */,
+				CCBF31B63024B26800676CC3 /* Docs */,
 			);
 			name = PocketBank;
 			packageProductDependencies = (
