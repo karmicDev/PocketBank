@@ -62,6 +62,28 @@ No layer may depend on a higher layer.
 
 ---
 
+## Project Structure
+
+PocketBank uses an Xcode Workspace combined with Swift Package Manager modules.
+
+The workspace is responsible for composing the application from independent modules.
+
+Example:
+
+PocketBank.xcworkspace
+
+├── PocketBankApp
+│
+├── Features
+│
+├── Core
+│
+├── Infrastructure
+│
+└── DesignSystem
+
+---
+
 # Rationale
 
 ## Separation of Concerns
