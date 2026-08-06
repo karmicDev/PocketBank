@@ -1,5 +1,11 @@
 # PocketBank Architecture
 
+## Status
+
+This architecture intentionally favors clarity and scalability over minimalism.
+
+As the project evolves, architectural decisions are documented through Architecture Decision Records (ADRs).
+
 ## Overview
 
 PocketBank is a production-inspired iOS application that demonstrates modern Apple platform development practices.
