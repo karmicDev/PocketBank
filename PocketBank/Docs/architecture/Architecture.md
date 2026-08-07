@@ -298,3 +298,15 @@ The architecture should allow:
 - feature flags
 
 without significant restructuring.
+
+---
+
+## Domain and Transport Models
+
+- Domain models belong to `PocketBankCore`.
+- DTOs belong to provider packages.
+- DTOs must never cross package boundaries.
+- Mapping from DTOs to domain models occurs inside the provider package.
+- Features interact only with domain models.
+
+---
